@@ -39,7 +39,7 @@ namespace P2.UI
             
             int serie;
             int costo;
-            int repa;
+            double repa;
 
             if (!int.TryParse(edSerie.Text, out serie))
             {
@@ -51,7 +51,7 @@ namespace P2.UI
                 costo = 0;
             }
             
-            if (!int.TryParse(edRepa.Text, out repa))
+            if (!double.TryParse(edRepa.Text, out repa))
             {
                 repa = 0;
             }
