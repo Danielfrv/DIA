@@ -15,7 +15,7 @@
                        <Label 
                                DockPanel.Dock="Top"
                                HorizontalAlignment="Center"
-                               Content="Introducir una Reparación"
+                               Content="Seleccione un aparato"
                                Margin="5"/>
                </DockPanel>
                
@@ -28,8 +28,8 @@
                        <ComboBox
                                Name="CbAparato"
                                SelectedIndex="0"
-                               Width="600"
-                               HorizontalAlignment="Right">
+                               Width="300"
+                               HorizontalAlignment="Center">
                                <ComboBoxItem Content="Radio"/>
                                <ComboBoxItem Content="Televisor"/>
                                <ComboBoxItem Content="DVD"/>
@@ -37,73 +37,14 @@
                        </ComboBox>
                </DockPanel>
                
-               <DockPanel Margin="5">
-                        <Label 
-                                DockPanel.Dock="Left" 
-                                Content="Número Serie" 
-                                Margin="5"/>
-                        <TextBox 
-                                Text=""
-                                Name="EdSerie" 
-                                Margin="5" 
-                                TextAlignment="Left"
-                                Width="600"
-                                HorizontalAlignment="Right"/>
-                </DockPanel>
-                
-                <DockPanel Margin="5">
-                        <Label 
-                                DockPanel.Dock="Left" 
-                                Content="Modelo" 
-                                Margin="5"/>
-                        <TextBox 
-                                Text=""
-                                Name="EdModelo" 
-                                Margin="5" 
-                                TextAlignment="Right"
-                                Width="600"
-                                HorizontalAlignment="Right"/>
-                </DockPanel>
-                
-               <DockPanel Margin="5">
-                        <Label 
-                                DockPanel.Dock="Left" 
-                                Content="Costo" 
-                                Margin="5"/>
-                        <TextBox 
-                                Text=""
-                                Name="EdCosto" 
-                                Margin="5" 
-                                TextAlignment="Right"
-                                Width="600"
-                                HorizontalAlignment="Right"/>
-                </DockPanel>
+               <Button
+                       Margin="20"
+                       Name="BtSelect"
+                       Content="Seleccionar"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       Padding="10"/>
                
-               <DockPanel Margin="5">
-                       <Label 
-                               DockPanel.Dock="Left" 
-                               Content="Tiempo de reparación" 
-                               Margin="5"/>
-                       <TextBox 
-                               Text=""
-                               Name="EdTiempo" 
-                               Margin="5" 
-                               TextAlignment="Right"
-                               Width="600"
-                               HorizontalAlignment="Right"/>
-               </DockPanel>
-                
-                <Button
-                        Margin="5"
-                        Name="BtInsert"
-                        Content="Insertar"
-                        HorizontalAlignment="Center"/>
-                
-                <Button
-                        Margin="5"
-                        Name="BtView"
-                        Content="Ver Reparaciones"
-                        HorizontalAlignment="Center"/>
         </StackPanel>
         
 </Window>

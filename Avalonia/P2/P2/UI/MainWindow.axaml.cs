@@ -5,6 +5,7 @@ using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using P2.Aparatos;
 using P2.Reparaciones;
+using P2.UI;
 
 namespace P2
 {
@@ -17,12 +18,9 @@ namespace P2
             this.AttachDevTools();
 #endif
             
-            var btInsert = this.FindControl<Button>("BtInsert");
-            btInsert.Click += (_,_) => this.OnInsert();
-            
-            //var btView = this.FindControl<Button>("BtView");
-            //tView.Click += (_,_) => this.OnView();
-            
+            var btSelect = this.FindControl<Button>("BtSelect");
+            btSelect.Click += (_,_) => this.OnSelect();
+
         }
 
         private void InitializeComponent()
@@ -30,47 +28,23 @@ namespace P2
             AvaloniaXamlLoader.Load(this);
         }
 
-        void OnInsert()
+        void OnSelect()
         {
             var cbAparato = this.FindControl<ComboBox>("CbAparato");
-            var edSerie = this.FindControl<TextBox>("EdSerie");
-            var edModelo = this.FindControl<TextBox>("EdModelo");
-            var edCosto = this.FindControl<TextBox>("EdCosto");
-            var edTiempo = this.FindControl<TextBox>("EdTiempo");
-
-            double costo;
-            double t_repa;
-            int serie;
-            bool esComp;
-            Aparato Ap;
-
-            if (!Double.TryParse(edTiempo.Text, out t_repa))
-            {
-                t_repa = 0;
-            }
-
-            costo = Convert.ToInt32(edCosto.Text);
-            
-            serie = Convert.ToInt32(edSerie.Text);
-            
-            //Necesitamos comprobar en cada caso el tiempo de reparación, para poder establecer de qué tipo se trata.
-            //Hacer un método que compruebe qué reparación es, para ser llamado a la hora de crear las reparaciones
 
             switch (cbAparato.SelectedIndex)
             {
                 case 0:
-                    esComp = esCompleja(t_repa);
-                    if (esComp)
-                    {
-                        Ap = new Radios(serie, edModelo.Text, costo);
-                        new ReparacionCompleja(cbAparato.SelectedItem, costo, t_repa);
-                    }
+                    new RadioWindow().ShowDialog(this);
                     break;
                 case 1:
+                    new TelevisorWindow().ShowDialog(this);
                     break;
                 case 2:
+                    new DVDWindow().ShowDialog(this);
                     break;
                 case 3:
+                    new AdaptadorWindow().ShowDialog(this);
                     break;
             }
             

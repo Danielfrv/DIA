@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\Documents\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj": {}
+    "E:\\Documentos\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\Documents\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj": {
+    "E:\\Documentos\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\Documents\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj",
+        "projectUniqueName": "E:\\Documentos\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj",
         "projectName": "P1.3",
-        "projectPath": "C:\\Users\\danie\\Documents\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj",
+        "projectPath": "E:\\Documentos\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\P1.3.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\Documents\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\obj\\",
+        "outputPath": "E:\\Documentos\\Daniel\\Universidad\\4 Año 1er Cuatrimestre\\DIA\\P1\\P1.3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config"

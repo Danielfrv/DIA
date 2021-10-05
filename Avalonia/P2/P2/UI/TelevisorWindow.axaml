@@ -1,0 +1,91 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        Width="790" Height="590"
+        MinWidth="630" MinHeight="470"
+        MaxWidth="1000" MaxHeight="750"
+        x:Class="P2.UI.TelevisorWindow"
+        Title="Reparación de Televisores">
+    
+    <StackPanel Orientation="Vertical" Margin="5">
+               
+               <DockPanel Margin="5">
+                       <Label 
+                               DockPanel.Dock="Top"
+                               HorizontalAlignment="Center"
+                               Content="Introduzca los datos"
+                               Margin="5"/>
+               </DockPanel>
+               
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Número Serie" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text=""
+                                Name="EdSerie" 
+                                Margin="5" 
+                                TextAlignment="Left"
+                                Width="600"
+                                HorizontalAlignment="Right"/>
+                </DockPanel>
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Modelo" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text=""
+                                Name="EdModelo" 
+                                Margin="5" 
+                                TextAlignment="Left"
+                                Width="600"
+                                HorizontalAlignment="Right"/>
+                </DockPanel>
+                
+               <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Costo" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text=""
+                                Name="EdCosto" 
+                                Margin="5" 
+                                TextAlignment="Left"
+                                Width="600"
+                                HorizontalAlignment="Right"/>
+                </DockPanel>
+               
+               <DockPanel Margin="5">
+                       <Label 
+                               DockPanel.Dock="Left" 
+                               Content="Pulgadas" 
+                               Margin="5"/>
+                       <TextBox 
+                               Text=""
+                               Name="EdPulgadas" 
+                               Margin="5" 
+                               TextAlignment="Left"
+                               Width="600"
+                               HorizontalAlignment="Right"/>
+               </DockPanel>
+                
+                <Button
+                        Margin="5"
+                        Name="BtInsert"
+                        Content="Insertar"
+                        HorizontalAlignment="Center"/>
+                
+                <Button
+                        Margin="5"
+                        Name="BtView"
+                        Content="Ver Reparaciones"
+                        HorizontalAlignment="Center"/>
+        </StackPanel>
+        
+</Window>
