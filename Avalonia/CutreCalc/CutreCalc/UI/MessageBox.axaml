@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CutreCalc.UI.MessageBox"
+        Width="200" Height="100"
+        MinWidth="200" MinHeight="100"
+        MaxWidth="630" MaxHeight="470"
+        Title="Error">
+    
+        <StackPanel Orientation="Vertical" Margin="5">
+                <TextBlock 
+                        Name="TbText"
+                        Margin="5"/>
+                <Button 
+                        Name="BtOk"
+                        Margin="5"
+                        Content="Aceptar"
+                        HorizontalAlignment="Right"/>
+        </StackPanel>
+        
+</Window>

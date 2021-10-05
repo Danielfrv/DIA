@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="CutreCalc/UI/MainWindow.axaml" value="CutreCalc/CutreCalc.csproj" />
+        <entry key="CutreCalc/UI/MessageBox.axaml" value="CutreCalc/CutreCalc.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

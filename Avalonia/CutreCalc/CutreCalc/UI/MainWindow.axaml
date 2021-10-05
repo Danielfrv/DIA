@@ -1,0 +1,74 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="CutreCalc.UI.MainWindow"
+        Width="250" Height="350"
+        MinWidth="200" MinHeight="300"
+        MaxWidth="630" MaxHeight="470"
+        Title="CutreCalc">
+    
+        <StackPanel Orientation="Vertical" Margin="5">
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Operando 1" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text="0"
+                                Name="EdOp1" 
+                                Margin="5" 
+                                TextAlignment="Right"/>
+                </DockPanel>
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Operando 2" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text="0"
+                                Name="EdOp2" 
+                                Margin="5" 
+                                TextAlignment="Right"/>
+                </DockPanel>
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left"
+                                Content="Operación"
+                                Margin="5"/>
+                        
+                        <ComboBox
+                                Name="CbOpr"
+                                SelectedIndex="0">
+                                <ComboBoxItem Content="+"/>
+                                <ComboBoxItem Content="-"/>
+                                <ComboBoxItem Content="*"/>
+                                <ComboBoxItem Content="/"/>
+                                <ComboBoxItem Content="."/>
+                        </ComboBox>
+                </DockPanel>
+                
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Resultado" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text="0"
+                                IsReadOnly="True"
+                                Name="EdRes" 
+                                Margin="5" 
+                                TextAlignment="Right"/>
+                </DockPanel>
+                
+                <Button
+                        Name="BtCalc"
+                        Content="Calcular"
+                        HorizontalAlignment="Center"/>
+        </StackPanel>
+        
+</Window>
