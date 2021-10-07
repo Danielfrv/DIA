@@ -5,28 +5,20 @@ namespace P2.Aparatos
 {
     public class DVD : Aparato
     {
-        public DVD(int n_serie, string modelo, int costo, bool blu_ray, bool graba, int t_grabacion) : base(n_serie, modelo, costo)
+        public DVD(int n_serie, string modelo, int costo, string blu_ray, string graba, int t_grabacion) : base(n_serie, modelo, costo)
         {
             this.Blu_ray = blu_ray;
             this.Graba = graba;
-            ComprobarGraba(graba, t_grabacion);
+            this.T_grabacion = t_grabacion;
         }
 
-        private void ComprobarGraba(bool graba, int t_grabacion)
-        {
-            if (graba)
-            {
-                this.T_grabacion = t_grabacion;
-            }
-        }
-
-        public bool Blu_ray
+        public string Blu_ray
         {
             get;
             set;
         }
 
-        public bool Graba
+        public string Graba
         {
             get;
             set;

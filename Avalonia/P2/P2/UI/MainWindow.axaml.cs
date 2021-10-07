@@ -50,21 +50,5 @@ namespace P2
             
         }
 
-        private bool esCompleja(double t_repa)
-        {
-            if(t_repa > 0)
-            {
-                if (t_repa <= 1)
-                {
-                    return true;
-                }
-                if (t_repa > 1)
-                {
-                    return false;
-                }
-            }
-            return false;
-        }
-
     }
 }

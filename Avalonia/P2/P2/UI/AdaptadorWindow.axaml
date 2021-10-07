@@ -102,6 +102,7 @@
                         Name="BtView"
                         Content="Ver Reparaciones"
                         HorizontalAlignment="Center"/>
+
         </StackPanel>
         
 </Window>

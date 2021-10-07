@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Avalonia;
 using Avalonia.Animation;
 using Avalonia.Controls;
@@ -58,9 +59,15 @@ namespace P2.UI
             
             lRadios.Add(new Radios(serie, edModelo.Text, costo, edBanda.Text));
             lRepa.Add(Reparacion.Crea(lRadios[0], costo, repa));
-            
-            new MessageBox(lRepa[0].ToString()).ShowDialog(this);
 
+            try
+            {
+                new MessageBox(lRepa[0].ToString()).ShowDialog(this);
+            }
+            catch (NullReferenceException)
+            {
+                new MessageBox("No se han introducido los datos, \no faltan datos por añadir.").ShowDialog(this);
+            }
 
         }
         

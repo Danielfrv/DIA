@@ -74,6 +74,20 @@
                                Width="600"
                                HorizontalAlignment="Right"/>
                </DockPanel>
+            
+            <DockPanel Margin="5">
+                    <Label 
+                            DockPanel.Dock="Left" 
+                            Content="Tiempo Reparación" 
+                            Margin="5"/>
+                    <TextBox 
+                            Text=""
+                            Name="EdRepa" 
+                            Margin="5" 
+                            TextAlignment="Left"
+                            Width="600"
+                            HorizontalAlignment="Right"/>
+            </DockPanel>
                 
                 <Button
                         Margin="5"
