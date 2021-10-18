@@ -6,6 +6,7 @@ using Avalonia.Animation;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using P2.Aparatos;
+using P2.Core;
 
 namespace P2.UI
 {
@@ -60,6 +61,8 @@ namespace P2.UI
             lRadios.Add(new Radios(serie, edModelo.Text, costo, edBanda.Text));
             lRepa.Add(Reparacion.Crea(lRadios[0], costo, repa));
 
+            new XmlRegistroReparaciones(lRepa).GuardaXml();
+            
             try
             {
                 new MessageBox(lRepa[0].ToString()).ShowDialog(this);
@@ -68,8 +71,6 @@ namespace P2.UI
             {
                 new MessageBox("No se han introducido los datos, \no faltan datos por añadir.").ShowDialog(this);
             }
-
         }
-        
     }
 }

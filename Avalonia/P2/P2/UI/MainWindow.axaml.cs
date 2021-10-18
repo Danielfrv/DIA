@@ -1,9 +1,11 @@
 using System;
+using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Animation;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using P2.Aparatos;
+using P2.Core;
 using P2.Reparaciones;
 using P2.UI;
 
@@ -20,6 +22,9 @@ namespace P2
             
             var btSelect = this.FindControl<Button>("BtSelect");
             btSelect.Click += (_,_) => this.OnSelect();
+            
+            var btView = this.FindControl<Button>("BtView");
+            btView.Click += (_,_) => this.OnView();
 
         }
 
@@ -28,7 +33,7 @@ namespace P2
             AvaloniaXamlLoader.Load(this);
         }
 
-        void OnSelect()
+        private void OnSelect()
         {
             var cbAparato = this.FindControl<ComboBox>("CbAparato");
 
@@ -50,5 +55,17 @@ namespace P2
             
         }
 
+        private void OnView()
+        {
+            this.lRepa = XmlRegistroReparaciones.RecuperaXml();
+            string datos = "";
+            foreach (Reparacion repa in lRepa)
+            {
+                datos = datos + "\n" + repa.ToString();
+            }
+            new MessageBox(datos).ShowDialog(this);
+        }
+
+        private List<Reparacion> lRepa { get; set; }
     }
 }

@@ -46,6 +46,11 @@ namespace Comentario
                 Console.WriteLine(c);
             }
             
+            foreach (Comentario c in listaComentarios.Todos)
+            {
+                new XComentario(c).SaveToXml("comentario1.xml");
+            }
+            
             Console.WriteLine($"Num. Comentarios: {listaComentarios.Num}"); //El símbolo de dólar sirve para interpretar
                                                                             //lo que aparezca entre las llaves
             

@@ -15,7 +15,7 @@
 
         public override string ToString()
         {
-            return "\nTelevisor: " + "\n" + base.ToString() + "\nPulgadas: " + Pulgadas;
+            return "\nTelevisor" + "\n" + base.ToString() + "\nPulgadas: " + Pulgadas;
         }
     }
 }

@@ -32,7 +32,7 @@ namespace P2.Aparatos
 
         public override string ToString()
         {
-            return "\nDVD: " + "\n" +  base.ToString() + "\nBlu-ray: " + Blu_ray.ToString() + "\nGraba: " 
+            return "\nDVD" + "\n" +  base.ToString() + "\nBlu-ray: " + Blu_ray.ToString() + "\nGraba: " 
                    + Graba.ToString() + "\nTiempo de grabación: " + T_grabacion;
         }
     }

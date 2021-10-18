@@ -21,8 +21,6 @@
 
         XElement ToXElement()
         {
-            
-            
             return new XElement("Comentario",
                 new XElement("Posicion", this.Comentario.Posicion),
                 new XElement("Autor", this.Comentario.Autor),

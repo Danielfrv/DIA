@@ -45,6 +45,14 @@
                        VerticalAlignment="Bottom"
                        Padding="10"/>
                
+               <Button
+                       Margin="5"
+                       Name="BtView"
+                       Content="Ver todas las reparaciones"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       Padding="10"/>
+               
         </StackPanel>
         
 </Window>

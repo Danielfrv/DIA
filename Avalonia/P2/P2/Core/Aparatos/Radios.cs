@@ -15,7 +15,7 @@
 
         public override string ToString()
         {
-            return "\nRadio: " + "\n" +  base.ToString() + "\nBanda: " + Banda;
+            return "\nRadio" + "\n" +  base.ToString() + "\nBanda: " + Banda;
         }
     }
 }

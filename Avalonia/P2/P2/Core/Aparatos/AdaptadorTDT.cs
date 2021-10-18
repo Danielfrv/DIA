@@ -30,7 +30,7 @@
 
         public override string ToString()
         {
-            return "\nAdaptador TDT: " + "\n" + base.ToString() + "\nGraba: " + Graba.ToString()
+            return "\nAdaptador TDT" + "\n" + base.ToString() + "\nGraba: " + Graba.ToString()
                    + "\nTiempo máximo de grabación: " + T_max_grabacion;
         }
     }
