@@ -7,7 +7,7 @@
         Width="315" Height="275"
         MinWidth="315" MinHeight="275"
         MaxWidth="630" MaxHeight="470"
-        Title="Reparaciones">
+        Title="Información">
     
     <StackPanel Orientation="Vertical" Margin="5">
         <TextBlock 

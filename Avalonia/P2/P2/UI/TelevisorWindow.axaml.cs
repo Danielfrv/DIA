@@ -6,6 +6,7 @@ using Avalonia.Animation;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using P2.Aparatos;
+using P2.Core;
 
 namespace P2.UI
 {
@@ -65,6 +66,8 @@ namespace P2.UI
             
             lTele.Add(new Televisores(serie, edModelo.Text, costo, pulgadas));
             lRepa.Add(Reparacion.Crea(lTele[0], costo, repa));
+            
+            new XmlRegistroReparaciones(lRepa).GuardaXml();
 
             try
             {

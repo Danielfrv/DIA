@@ -95,11 +95,6 @@
                         Content="Insertar"
                         HorizontalAlignment="Center"/>
                 
-                <Button
-                        Margin="5"
-                        Name="BtView"
-                        Content="Ver Reparaciones"
-                        HorizontalAlignment="Center"/>
         </StackPanel>
         
 </Window>

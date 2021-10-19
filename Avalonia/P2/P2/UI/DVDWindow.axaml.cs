@@ -4,6 +4,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using P2.Aparatos;
+using P2.Core;
 
 namespace P2.UI
 {
@@ -83,6 +84,8 @@ namespace P2.UI
             }
             
             lRepa.Add(Reparacion.Crea(lDvds[0], costo, repa));
+            
+            new XmlRegistroReparaciones(lRepa).GuardaXml();
 
             try
             {

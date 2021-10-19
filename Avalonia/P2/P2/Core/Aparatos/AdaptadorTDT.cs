@@ -2,21 +2,21 @@
 {
     public class AdaptadorTDT : Aparato
     {
-        public AdaptadorTDT(int n_serie, string modelo, int costo, bool graba, int t_max_grabacion) : base(n_serie, modelo, costo)
+        public AdaptadorTDT(int n_serie, string modelo, int costo, string graba, int t_max_grabacion) : base(n_serie, modelo, costo)
         {
             this.Graba = graba;
             comprobarGraba(graba, t_max_grabacion);
         }
 
-        private void comprobarGraba(bool graba, int t_max_grabacion)
+        private void comprobarGraba(string graba, int t_max_grabacion)
         {
-            if (graba)
+            if (graba == "Si")
             {
                 this.T_max_grabacion = t_max_grabacion;
             }
         }
         
-        public bool Graba
+        public string Graba
         {
             get;
             set;

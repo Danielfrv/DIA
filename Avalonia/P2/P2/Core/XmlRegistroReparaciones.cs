@@ -1,13 +1,12 @@
-﻿using P2.Aparatos;
-using P2.Reparaciones;
-
-namespace P2.Core
+﻿namespace P2.Core
 {
     using System;
     using System.IO;
     using System.Xml;
     using System.Xml.Linq;
     using System.Collections.Generic;
+    using P2.Aparatos;
+    using P2.Reparaciones;
 
     public class XmlRegistroReparaciones
     {
@@ -57,6 +56,58 @@ namespace P2.Core
                                     new XAttribute(EtqPrecioTotal, repa.Precio * repa.T_reparacion),
                                     new XAttribute(EtqTReparacion, repa.T_reparacion))));
                     }
+                    
+                    if (repa.Ap.ToString().Split('\n')[1] == "Televisor")
+                    {
+                        Televisores t = (Televisores) repa.Ap;
+                        root.Add(
+                            new XElement(EtqReparacion,
+                                new XAttribute(EtqTipoRepa, repa.GetType().ToString().Split('.')[2]),
+                                new XElement(EtqAparato, repa.Ap.ToString().Split('\n')[1],
+                                    new XAttribute(EtqSerie, repa.Ap.N_serie),
+                                    new XAttribute(EtqPrecio, repa.Ap.Costo),
+                                    new XAttribute(EtqModelo, repa.Ap.Modelo),
+                                    new XAttribute("Pulgadas", t.Pulgadas),
+                                    new XAttribute(EtqPrecioMediaHora, repa.Precio_media_hora),
+                                    new XAttribute(EtqPrecioTotal, repa.Precio * repa.T_reparacion),
+                                    new XAttribute(EtqTReparacion, repa.T_reparacion))));
+                    }
+                    
+                    if (repa.Ap.ToString().Split('\n')[1] == "DVD")
+                    {
+                        DVD d = (DVD) repa.Ap;
+                        root.Add(
+                            new XElement(EtqReparacion,
+                                new XAttribute(EtqTipoRepa, repa.GetType().ToString().Split('.')[2]),
+                                new XElement(EtqAparato, repa.Ap.ToString().Split('\n')[1],
+                                    new XAttribute(EtqSerie, repa.Ap.N_serie),
+                                    new XAttribute(EtqPrecio, repa.Ap.Costo),
+                                    new XAttribute(EtqModelo, repa.Ap.Modelo),
+                                    new XAttribute("Blu-Ray", d.Blu_ray),
+                                    new XAttribute("Graba", d.Graba),
+                                    new XAttribute("T_Grabación", d.T_grabacion),
+                                    new XAttribute(EtqPrecioMediaHora, repa.Precio_media_hora),
+                                    new XAttribute(EtqPrecioTotal, repa.Precio * repa.T_reparacion),
+                                    new XAttribute(EtqTReparacion, repa.T_reparacion))));
+                    }
+                    
+                    if (repa.Ap.ToString().Split('\n')[1] == "Adaptador TDT")
+                    {
+                        AdaptadorTDT a = (AdaptadorTDT) repa.Ap;
+                        root.Add(
+                            new XElement(EtqReparacion,
+                                new XAttribute(EtqTipoRepa, repa.GetType().ToString().Split('.')[2]),
+                                new XElement(EtqAparato, repa.Ap.ToString().Split('\n')[1],
+                                    new XAttribute(EtqSerie, repa.Ap.N_serie),
+                                    new XAttribute(EtqPrecio, repa.Ap.Costo),
+                                    new XAttribute(EtqModelo, repa.Ap.Modelo),
+                                    new XAttribute("Graba", a.Graba),
+                                    new XAttribute("T_Max_Grabación", a.T_max_grabacion),
+                                    new XAttribute(EtqPrecioMediaHora, repa.Precio_media_hora),
+                                    new XAttribute(EtqPrecioTotal, repa.Precio * repa.T_reparacion),
+                                    new XAttribute(EtqTReparacion, repa.T_reparacion))));
+                    }
+                    
                 }
                 catch(Exception e)
                 {
@@ -99,6 +150,36 @@ namespace P2.Core
                                     (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
                                     (double) repaXml.Element(EtqAparato)!.Attribute(EtqTReparacion)!));
                                 break;
+                            case "Televisor":
+                                toret.Add(Reparacion.Crea(new Televisores(
+                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqSerie)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!, 
+                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                        (int) repaXml.Element(EtqAparato)!.Attribute("Pulgadas")!), 
+                                    (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                    (double) repaXml.Element(EtqAparato)!.Attribute(EtqTReparacion)!));
+                                break;
+                            case "DVD":
+                                toret.Add(Reparacion.Crea(new DVD(
+                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqSerie)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!, 
+                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute("Blu-Ray")!,
+                                        (string) repaXml.Element(EtqAparato)!.Attribute("Graba")!,
+                                        (int) repaXml.Element(EtqAparato)!.Attribute("T_Grabación")!), 
+                                    (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                    (double) repaXml.Element(EtqAparato)!.Attribute(EtqTReparacion)!));
+                                break;
+                            case "Adaptador TDT":
+                                toret.Add(Reparacion.Crea(new AdaptadorTDT(
+                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqSerie)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!, 
+                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute("Graba")!,
+                                        (int) repaXml.Element(EtqAparato)!.Attribute("T_Max_Grabación")!), 
+                                    (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                    (double) repaXml.Element(EtqAparato)!.Attribute(EtqTReparacion)!));
+                                break;
                         }
                     }
                 }
@@ -118,39 +199,6 @@ namespace P2.Core
 
             return toret;
         }
-
-        /*private static List<Reparacion> RecuperaXml(string f)
-        {
-            var toret = new List<Reparacion>();
-
-            try
-            {
-                var doc = XDocument.Load(f);
-                string rootTag = doc?.Root?.Name.ToString() ?? "";
-
-                if (doc?.Root != null && rootTag == EtqReparacion)
-                {
-                    var reparacion = doc.Root.Elements(EtqReparacion);
-
-                    foreach (XElement repaXml in reparacion)
-                    {
-                        string sustPiezas = (string?) repaXml.Element(EtqSustPiezas) ?? "SUST";
-                        Aparato aparato = repaXml.Element(EtqAparato);
-                        int precio = (int?) repaXml.Element(EtqPrecio) ?? 0;
-                        string precioMediaHora = (string?) repaXml.Element(EtqPrecioMediaHora) ?? "PRECIO_MED";
-                        double tReparacion = (double?) repaXml.Element(EtqTReparacion) ?? 0.0;
-                        toret.Add(Reparacion.Crea(aparato, precio, tReparacion));
-                    }
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-
-            return toret;
-        }*/
 
         public List<Reparacion> lRepa { get; }
     }
