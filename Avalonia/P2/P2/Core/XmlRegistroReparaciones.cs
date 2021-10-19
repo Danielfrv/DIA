@@ -22,9 +22,9 @@
         private const string EtqSerie = "serie";
         private const string EtqTipoRepa = "tipo_reparacion";
 
-        public XmlRegistroReparaciones(List<Reparacion> lRepa)
+        public XmlRegistroReparaciones(RegistroReparaciones RegRepa)
         {
-            this.lRepa = lRepa;
+            this.RegRepa = RegRepa;
         }
 
         public void GuardaXml()
@@ -37,7 +37,7 @@
             var doc = new XDocument();
             var root = new XElement(EtqReparaciones);
 
-            foreach (Reparacion repa in lRepa)
+            foreach (Reparacion repa in RegRepa)
             {
                 try
                 {
@@ -120,14 +120,14 @@
             doc.Save(ArchivoXml);
         }
 
-        public static List<Reparacion> RecuperaXml()
+        public static RegistroReparaciones RecuperaXml()
         {
             return RecuperaXml(ArchivoXml);
         }
 
-        public static List<Reparacion> RecuperaXml(string f)
+        public static RegistroReparaciones RecuperaXml(string f)
         {
-            var toret = new List<Reparacion>();
+            var toret = new RegistroReparaciones();
 
             try
             {
@@ -200,6 +200,6 @@
             return toret;
         }
 
-        public List<Reparacion> lRepa { get; }
+        public RegistroReparaciones RegRepa { get; }
     }
 }

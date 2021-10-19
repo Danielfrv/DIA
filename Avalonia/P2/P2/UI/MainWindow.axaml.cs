@@ -57,15 +57,15 @@ namespace P2
 
         private void OnView()
         {
-            this.lRepa = XmlRegistroReparaciones.RecuperaXml();
+            this.RegistroReparaciones = XmlRegistroReparaciones.RecuperaXml();
             string datos = "";
-            foreach (Reparacion repa in lRepa)
+            foreach (Reparacion repa in RegistroReparaciones)
             {
                 datos = datos + "\n" + repa.ToString();
             }
             new MessageBox(datos).ShowDialog(this);
         }
 
-        private List<Reparacion> lRepa { get; set; }
+        public RegistroReparaciones RegistroReparaciones { get; set; }
     }
 }

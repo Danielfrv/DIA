@@ -32,7 +32,7 @@ namespace P2.UI
         private void OnInsert()
         {
             List<Radios> lRadios = new List<Radios>();
-            List<Reparacion> lRepa = new List<Reparacion>();
+            RegistroReparaciones lRepa = XmlRegistroReparaciones.RecuperaXml();
             var edSerie = this.FindControl<TextBox>("EdSerie");
             var edModelo = this.FindControl<TextBox>("EdModelo");
             var edCosto = this.FindControl<TextBox>("EdCosto");
@@ -65,7 +65,7 @@ namespace P2.UI
             
             try
             {
-                new MessageBox(lRepa[0].ToString()).ShowDialog(this);
+                new MessageBox("Reparación insertada").ShowDialog(this);
             }
             catch (NullReferenceException)
             {
