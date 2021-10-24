@@ -2,7 +2,8 @@
 {
     public class Radios : Aparato
     {
-        public Radios(int n_serie, string modelo, int costo, string banda) : base(n_serie, modelo, costo)
+        public const int costo = 5;
+        public Radios(int n_serie, string modelo, string banda) : base(n_serie, modelo, costo)
         {
             this.Banda = banda;
         }

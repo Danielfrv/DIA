@@ -2,7 +2,8 @@
 {
     public class Televisores : Aparato
     {
-        public Televisores(int n_serie, string modelo, int costo, int pulgadas) : base(n_serie, modelo, costo)
+        public const int costo = 10;
+        public Televisores(int n_serie, string modelo, int pulgadas) : base(n_serie, modelo, costo)
         {
             this.Pulgadas = pulgadas;
         }

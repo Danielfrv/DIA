@@ -64,7 +64,7 @@ namespace P2.UI
                 repa = 0;
             }
             
-            lTele.Add(new Televisores(serie, edModelo.Text, costo, pulgadas));
+            lTele.Add(new Televisores(serie, edModelo.Text, pulgadas));
             lRepa.Add(Reparacion.Crea(lTele[0], costo, repa));
             
             new XmlRegistroReparaciones(lRepa).GuardaXml();

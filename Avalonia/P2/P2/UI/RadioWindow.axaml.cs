@@ -36,7 +36,7 @@ namespace P2.UI
             var edSerie = this.FindControl<TextBox>("EdSerie");
             var edModelo = this.FindControl<TextBox>("EdModelo");
             var edCosto = this.FindControl<TextBox>("EdCosto");
-            var edBanda = this.FindControl<TextBox>("EdBanda");
+            var cbBanda = this.FindControl<ComboBox>("CbBanda");
             var edRepa = this.FindControl<TextBox>("EdRepa");
             
             int serie;
@@ -58,7 +58,10 @@ namespace P2.UI
                 repa = 0;
             }
             
-            lRadios.Add(new Radios(serie, edModelo.Text, costo, edBanda.Text));
+            ComboBoxItem? cbi = (ComboBoxItem)cbBanda.SelectedItem!;
+            string? banda = cbi.Content.ToString();
+            
+            lRadios.Add(new Radios(serie, edModelo.Text, banda!));
             lRepa.Add(Reparacion.Crea(lRadios[0], costo, repa));
 
             new XmlRegistroReparaciones(lRepa).GuardaXml();

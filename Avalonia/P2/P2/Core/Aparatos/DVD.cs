@@ -5,7 +5,8 @@ namespace P2.Aparatos
 {
     public class DVD : Aparato
     {
-        public DVD(int n_serie, string modelo, int costo, string blu_ray, string graba, int t_grabacion) : base(n_serie, modelo, costo)
+        public const int costo = 10;
+        public DVD(int n_serie, string modelo, string blu_ray, string graba, int t_grabacion) : base(n_serie, modelo, costo)
         {
             this.Blu_ray = blu_ray;
             this.Graba = graba;

@@ -2,7 +2,8 @@
 {
     public class AdaptadorTDT : Aparato
     {
-        public AdaptadorTDT(int n_serie, string modelo, int costo, string graba, int t_max_grabacion) : base(n_serie, modelo, costo)
+        public const int costo = 5;
+        public AdaptadorTDT(int n_serie, string modelo, string graba, int t_max_grabacion) : base(n_serie, modelo, costo)
         {
             this.Graba = graba;
             comprobarGraba(graba, t_max_grabacion);

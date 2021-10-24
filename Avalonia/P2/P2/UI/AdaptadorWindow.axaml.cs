@@ -68,14 +68,14 @@ namespace P2.UI
                 ComboBoxItem? cbi2 = (ComboBoxItem)cbGraba.SelectedItem!;
                 string? graba = cbi2.Content.ToString();
                 
-                lAdap.Add(new AdaptadorTDT(serie, edModelo.Text, costo, graba!, 0));
+                lAdap.Add(new AdaptadorTDT(serie, edModelo.Text, graba!, 0));
             }
             else
             {
                 ComboBoxItem cbi2 = (ComboBoxItem)cbGraba.SelectedItem!;
                 string? graba = cbi2.Content.ToString();
                 
-                lAdap.Add(new AdaptadorTDT(serie, edModelo.Text, costo, graba!, tGraba));
+                lAdap.Add(new AdaptadorTDT(serie, edModelo.Text, graba!, tGraba));
             }
             
             lRepa.Add(Reparacion.Crea(lAdap[0], costo, repa));

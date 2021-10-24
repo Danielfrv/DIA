@@ -49,10 +49,12 @@
                 
                <DockPanel Margin="5">
                         <Label 
+                                IsVisible="False"
                                 DockPanel.Dock="Left" 
                                 Content="Costo" 
                                 Margin="5"/>
                         <TextBox 
+                                IsVisible="False"
                                 Text=""
                                 Name="EdCosto" 
                                 Margin="5" 

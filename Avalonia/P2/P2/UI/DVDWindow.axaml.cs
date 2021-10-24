@@ -70,7 +70,7 @@ namespace P2.UI
                 ComboBoxItem? cbi2 = (ComboBoxItem)cbGraba.SelectedItem!;
                 string? graba = cbi2.Content.ToString();
                 
-                lDvds.Add(new DVD(serie, edModelo.Text, costo, bluray!, graba!, 0));
+                lDvds.Add(new DVD(serie, edModelo.Text, bluray!, graba!, 0));
             }
             else
             {
@@ -80,7 +80,7 @@ namespace P2.UI
                 ComboBoxItem cbi2 = (ComboBoxItem)cbGraba.SelectedItem!;
                 string? graba = cbi2.Content.ToString();
                 
-                lDvds.Add(new DVD(serie, edModelo.Text, costo, bluray!, graba!, tGraba));
+                lDvds.Add(new DVD(serie, edModelo.Text, bluray!, graba!, tGraba));
             }
             
             lRepa.Add(Reparacion.Crea(lDvds[0], costo, repa));

@@ -49,10 +49,12 @@
                 
                <DockPanel Margin="5">
                         <Label 
+                                IsVisible="False"
                                 DockPanel.Dock="Left" 
                                 Content="Costo" 
                                 Margin="5"/>
                         <TextBox 
+                                IsVisible="False"
                                 Text=""
                                 Name="EdCosto" 
                                 Margin="5" 
@@ -61,19 +63,22 @@
                                 HorizontalAlignment="Right"/>
                 </DockPanel>
                
-               <DockPanel Margin="5">
-                       <Label 
-                               DockPanel.Dock="Left" 
-                               Content="Banda" 
-                               Margin="5"/>
-                       <TextBox 
-                               Text=""
-                               Name="EdBanda" 
-                               Margin="5" 
-                               TextAlignment="Left"
-                               Width="600"
-                               HorizontalAlignment="Right"/>
-               </DockPanel>
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left"
+                                Content="Banda"
+                                Margin="5"/>
+                        
+                        <ComboBox
+                                Name="CbBanda"
+                                SelectedIndex="0"
+                                Width="600"
+                                HorizontalAlignment="Right">
+                                <ComboBoxItem Content="AM"/>
+                                <ComboBoxItem Content="FM"/>
+                                <ComboBoxItem Content="AM/FM"/>
+                        </ComboBox>
+                </DockPanel>
                 
                 <DockPanel Margin="5">
                         <Label 

@@ -144,8 +144,7 @@
                             case "Radio":
                                 toret.Add(Reparacion.Crea(new Radios(
                                         (int) repaXml.Element(EtqAparato)!.Attribute(EtqSerie)!, 
-                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!, 
-                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!,
                                         (string) repaXml.Element(EtqAparato)!.Attribute("Banda")!), 
                                     (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
                                     (double) repaXml.Element(EtqAparato)!.Attribute(EtqTReparacion)!));
@@ -153,8 +152,7 @@
                             case "Televisor":
                                 toret.Add(Reparacion.Crea(new Televisores(
                                         (int) repaXml.Element(EtqAparato)!.Attribute(EtqSerie)!, 
-                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!, 
-                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!,
                                         (int) repaXml.Element(EtqAparato)!.Attribute("Pulgadas")!), 
                                     (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
                                     (double) repaXml.Element(EtqAparato)!.Attribute(EtqTReparacion)!));
@@ -162,8 +160,7 @@
                             case "DVD":
                                 toret.Add(Reparacion.Crea(new DVD(
                                         (int) repaXml.Element(EtqAparato)!.Attribute(EtqSerie)!, 
-                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!, 
-                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!,
                                         (string) repaXml.Element(EtqAparato)!.Attribute("Blu-Ray")!,
                                         (string) repaXml.Element(EtqAparato)!.Attribute("Graba")!,
                                         (int) repaXml.Element(EtqAparato)!.Attribute("T_Grabación")!), 
@@ -173,8 +170,7 @@
                             case "Adaptador TDT":
                                 toret.Add(Reparacion.Crea(new AdaptadorTDT(
                                         (int) repaXml.Element(EtqAparato)!.Attribute(EtqSerie)!, 
-                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!, 
-                                        (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
+                                        (string) repaXml.Element(EtqAparato)!.Attribute(EtqModelo)!,
                                         (string) repaXml.Element(EtqAparato)!.Attribute("Graba")!,
                                         (int) repaXml.Element(EtqAparato)!.Attribute("T_Max_Grabación")!), 
                                     (int) repaXml.Element(EtqAparato)!.Attribute(EtqPrecio)!, 
