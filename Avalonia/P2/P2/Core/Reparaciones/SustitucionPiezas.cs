@@ -9,7 +9,7 @@
 
         public override string ToString()
         {
-            return "\nSustitución de Piezas. " + base.ToString() + "\nPrecio Total: " + Precio * T_reparacion + " euros";
+            return "\nSustitución de Piezas. " + base.ToString() + "\nPrecio Total: " + Precio + " euros";
         }
     }
 }
