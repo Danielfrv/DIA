@@ -25,6 +25,9 @@ namespace P2
             
             var btView = this.FindControl<Button>("BtView");
             btView.Click += (_,_) => this.OnView();
+            
+            var btExit = this.FindControl<Button>("BtExit");
+            btExit.Click += (_,_) => this.Close();
 
         }
 

@@ -16,15 +16,25 @@ namespace P2
         public static Reparacion Crea(Aparato ap, int precio, double t_reparacion)
         {
             Reparacion toret = null;
+            double sobreprecio;
             
             if(t_reparacion > 0 && t_reparacion <= 1)
             {
+                if (precio < 10)
+                {
+                    precio = 10;
+                }
                 toret = new SustitucionPiezas(ap, precio, t_reparacion);
             }
             
             if(t_reparacion > 1)
             {
-                toret = new ReparacionCompleja(ap, precio, t_reparacion);
+                if (precio < 10)
+                {
+                    precio = 10;
+                }
+                sobreprecio = precio * 0.25;
+                toret = new ReparacionCompleja(ap, precio + sobreprecio, t_reparacion);
             }
 
             return toret;

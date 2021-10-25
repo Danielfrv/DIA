@@ -53,6 +53,14 @@
                        VerticalAlignment="Bottom"
                        Padding="10"/>
                
+               <Button
+                       Margin="20"
+                       Name="BtExit"
+                       Content="Salir"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       Padding="10"/>
+               
         </StackPanel>
         
 </Window>
