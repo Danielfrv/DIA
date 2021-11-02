@@ -55,7 +55,6 @@ namespace P2
                     new AdaptadorWindow().ShowDialog(this);
                     break;
             }
-            
         }
 
         private void OnView()

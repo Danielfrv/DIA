@@ -1,0 +1,89 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Proveedores.MainWindow"
+        Width="790" Height="590"
+        Title="Proveedores">
+        
+        <StackPanel Orientation="Vertical" Margin="5">
+                <DockPanel Margin="5">
+                        <Label
+                                DockPanel.Dock="Top"
+                                HorizontalAlignment="Center"
+                                Content="Insertar Proveedor"
+                                Margin="5"/>
+                </DockPanel>
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="CIF" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text=""
+                                Name="EdCif" 
+                                Margin="5" 
+                                TextAlignment="Left"
+                                Width="600"
+                                HorizontalAlignment="Right"/>
+                </DockPanel>
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Nombre" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text=""
+                                Name="EdNombre" 
+                                Margin="5" 
+                                TextAlignment="Left"
+                                Width="600"
+                                HorizontalAlignment="Right"/>
+                </DockPanel>
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Dir. Facturación" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text=""
+                                Name="EdDirFactu" 
+                                Margin="5" 
+                                TextAlignment="Left"
+                                Width="600"
+                                HorizontalAlignment="Right"/>
+                </DockPanel>
+                
+                <DockPanel Margin="5">
+                        <Label 
+                                DockPanel.Dock="Left" 
+                                Content="Código Pieza" 
+                                Margin="5"/>
+                        <TextBox 
+                                Text=""
+                                Name="EdCodigo" 
+                                Margin="5" 
+                                TextAlignment="Left"
+                                Width="600"
+                                HorizontalAlignment="Right"/>
+                </DockPanel>
+                
+                <Button
+                        Margin="5"
+                        Name="BtInsert"
+                        Content="Insertar"
+                        HorizontalAlignment="Center"/>
+                
+                <Button
+                        Margin="5"
+                        Name="BtView"
+                        Content="Ver Proveedores"
+                        HorizontalAlignment="Center"/>
+                
+        </StackPanel>
+        
+</Window>
