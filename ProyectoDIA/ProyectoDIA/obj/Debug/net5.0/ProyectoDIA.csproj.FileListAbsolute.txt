@@ -1,0 +1,16 @@
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\bin\Debug\net5.0\ProyectoDIA.exe
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\bin\Debug\net5.0\ProyectoDIA.deps.json
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\bin\Debug\net5.0\ProyectoDIA.runtimeconfig.json
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\bin\Debug\net5.0\ProyectoDIA.runtimeconfig.dev.json
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\bin\Debug\net5.0\ProyectoDIA.dll
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\bin\Debug\net5.0\ref\ProyectoDIA.dll
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\bin\Debug\net5.0\ProyectoDIA.pdb
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.csproj.AssemblyReference.cache
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.AssemblyInfoInputs.cache
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.AssemblyInfo.cs
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.dll
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ref\ProyectoDIA.dll
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.pdb
+C:\Users\Carlos Somoza\RiderProjects\ProyectoDIA\obj\Debug\net5.0\ProyectoDIA.genruntimeconfig.cache

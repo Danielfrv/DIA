@@ -5,25 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="414b9352-2baf-4c4e-bdee-68c68c3fbb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/Core/Proveedor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/Core/RegistroProveedores.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/Core/XmlRegistroProveedores.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/Proveedores.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/UI/App.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/UI/App.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/UI/MainWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/UI/MainWindow.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/UI/MessageWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/UI/MessageWindow.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proveedores/UI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../P2/P2/UI/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../P2/P2/UI/MainWindow.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/.idea/.idea.ProyectoDIA.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/.idea/.idea.ProyectoDIA.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/.idea/.idea.ProyectoDIA.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Clientes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/ProyectoDIA.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/cliente.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ref/ProyectoDIA.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ref/ProyectoDIA.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/ProyectoDIA.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/ProyectoDIA.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/ProyectoDIA.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proveedores/Core/Proveedor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proveedores/Core/Proveedor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proveedores/Core/XmlRegistroProveedores.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proveedores/Core/XmlRegistroProveedores.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proveedores/UI/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proveedores/UI/MainWindow.axaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +53,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f3ae891f5eda46658311b54485f9367dd5000/11E/TextBox.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Clientes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20MSnf2ZMwHy4NtO8u9yPMaYhkj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,8 +67,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.026002167" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -83,6 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635853131544</updated>
       <workItem from="1635853149112" duration="6419000" />
+      <workItem from="1636811095248" duration="5908000" />
     </task>
     <servers />
   </component>
@@ -90,7 +111,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -102,6 +123,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

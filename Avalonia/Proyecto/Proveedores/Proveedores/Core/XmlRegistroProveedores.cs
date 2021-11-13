@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -69,9 +71,10 @@ namespace Proveedores.Core
                     var proveedores = doc.Root.Elements(EtqProveedor);
                     foreach (XElement provXml in proveedores)
                     {
-                        toret.Add(new Proveedor((string) provXml.Element(EtqCif)!,
-                            (string) provXml.Element(EtqNombre)!,
-                            (string) provXml.Element(EtqDirFactu)!));
+                        toret.Add(new Proveedor((string) provXml.Attribute(EtqCif)!,
+                            (string) provXml.Attribute(EtqNombre)!,
+                            (string) provXml.Attribute(EtqDirFactu)!,
+                            provXml.Attribute(EtqCodigos).Value.Split(", ").ToList()));
                     } 
                 }
                 
@@ -95,6 +98,7 @@ namespace Proveedores.Core
         public RegistroProveedores Prov
         {
             get;
+            set;
         }
         
     }

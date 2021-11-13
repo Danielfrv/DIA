@@ -18,11 +18,11 @@ namespace Proveedores
 #endif
             var btSelect = this.FindControl<Button>("BtInsert");
             btSelect.Click += (_,_) => this.OnInsert();
-            /*var btView = this.FindControl<Button>("BtView");
-            btView.Click += (_,_) => this.OnView();*/
+            var btView = this.FindControl<Button>("BtView");
+            btView.Click += (_,_) => this.OnView();
             this.Closed += (_, _) => this.OnClose();
 
-            this.RegistroProveedores = new RegistroProveedores();
+            this.RegistroProveedores = XmlRegistroProveedores.RecuperaXml();
 
         }
 
@@ -41,26 +41,25 @@ namespace Proveedores
             var edDirFactu = this.FindControl<TextBox>("EdDirFactu");
             var edCodigo = this.FindControl<TextBox>("EdCodigo");
             string[] cods = edCodigo.Text.Split(", ");
+            List<string> codPiezas = new List<string>(cods);
 
             lCods = new List<string>(cods);
             
-            this.RegistroProveedores.Add(new Proveedor(edCif.Text, edNombre.Text, edDirFactu.Text));
-            this.RegistroProveedores[0].AddRange(lCods);
+            this.RegistroProveedores.Add(new Proveedor(edCif.Text, edNombre.Text, edDirFactu.Text, codPiezas));
 
             new MessageWindow(RegistroProveedores.ToString()).ShowDialog(this);
 
         }
 
-        /*private void OnView()
+        private void OnView()
         {
-            this.RegistroProveedores = XmlRegistroProveedores.RecuperaXml();
             string datos = "";
-            foreach (Proveedor repa in RegistroProveedores)
+            foreach (Proveedor prov in this.RegistroProveedores)
             {
-                datos = datos + "\n" + repa.ToString();
+                datos = datos + "\n" + prov.ToString();
             }
             new MessageWindow(datos).ShowDialog(this);
-        }*/
+        }
 
         void OnClose()
         {
