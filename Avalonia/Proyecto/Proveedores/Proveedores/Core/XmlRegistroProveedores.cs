@@ -74,7 +74,7 @@ namespace Proveedores.Core
                         toret.Add(new Proveedor((string) provXml.Attribute(EtqCif)!,
                             (string) provXml.Attribute(EtqNombre)!,
                             (string) provXml.Attribute(EtqDirFactu)!,
-                            provXml.Attribute(EtqCodigos).Value.Split(", ").ToList()));
+                            provXml.Attribute(EtqCodigos).Value.Split("  ").ToList()));
                     } 
                 }
                 

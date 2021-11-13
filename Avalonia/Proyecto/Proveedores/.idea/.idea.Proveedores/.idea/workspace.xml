@@ -4,46 +4,7 @@
     <projectFile>Proveedores/Proveedores.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="414b9352-2baf-4c4e-bdee-68c68c3fbb15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/.idea/.idea.ProyectoDIA.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/.idea/.idea.ProyectoDIA.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/.idea/.idea.ProyectoDIA.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Clientes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/ProyectoDIA.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ProyectoDIA.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/cliente.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/bin/Debug/net5.0/ref/ProyectoDIA.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ProyectoDIA.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/Debug/net5.0/ref/ProyectoDIA.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/ProyectoDIA.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/ProyectoDIA.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/ProyectoDIA.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proveedores/Core/Proveedor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proveedores/Core/Proveedor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proveedores/Core/XmlRegistroProveedores.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proveedores/Core/XmlRegistroProveedores.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proveedores/UI/MainWindow.axaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proveedores/UI/MainWindow.axaml.cs" afterDir="false" />
-    </list>
+    <list default="true" id="414b9352-2baf-4c4e-bdee-68c68c3fbb15" name="Changes" comment="Terminado el volcado y recuperación a XML. Falta mostrar los datos en un DataGrid." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,8 +64,16 @@
       <option name="presentableId" value="Default" />
       <updated>1635853131544</updated>
       <workItem from="1635853149112" duration="6419000" />
-      <workItem from="1636811095248" duration="5908000" />
+      <workItem from="1636811095248" duration="6301000" />
     </task>
+    <task id="LOCAL-00001" summary="Terminado el volcado y recuperación a XML. Falta mostrar los datos en un DataGrid.">
+      <created>1636817356293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636817356293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +97,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Terminado el volcado y recuperación a XML. Falta mostrar los datos en un DataGrid." />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado el volcado y recuperación a XML. Falta mostrar los datos en un DataGrid." />
   </component>
 </project>
