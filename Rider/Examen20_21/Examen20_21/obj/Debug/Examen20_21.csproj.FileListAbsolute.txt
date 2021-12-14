@@ -1,0 +1,6 @@
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Examen20_21\Examen20_21\bin\Debug\Examen20_21.exe
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Examen20_21\Examen20_21\bin\Debug\Examen20_21.pdb
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Examen20_21\Examen20_21\obj\Debug\Examen20_21.csprojAssemblyReference.cache
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Examen20_21\Examen20_21\obj\Debug\Examen20_21.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Examen20_21\Examen20_21\obj\Debug\Examen20_21.exe
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Examen20_21\Examen20_21\obj\Debug\Examen20_21.pdb

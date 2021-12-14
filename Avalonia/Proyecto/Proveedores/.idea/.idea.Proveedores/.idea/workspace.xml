@@ -4,7 +4,26 @@
     <projectFile>Proveedores/Proveedores.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="414b9352-2baf-4c4e-bdee-68c68c3fbb15" name="Changes" comment="Terminado el volcado y recuperación a XML. Falta mostrar los datos en un DataGrid." />
+    <list default="true" id="414b9352-2baf-4c4e-bdee-68c68c3fbb15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/.idea/.idea.Sobrecarga/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/.idea/.idea.Sobrecarga/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/.idea/.idea.Sobrecarga/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/Producto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/Sobrecarga.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/bin/Debug/Sobrecarga.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/bin/Debug/Sobrecarga.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/obj/Debug/Sobrecarga.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/obj/Debug/Sobrecarga.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/obj/Debug/Sobrecarga.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/obj/Debug/Sobrecarga.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Rider/Sobrecarga/Sobrecarga/obj/Debug/Sobrecarga.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proveedores/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proveedores/Proveedores.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Proveedores/Proveedores.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +33,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Clientes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../ProyectoDIA/ProyectoDIA/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="20MSnf2ZMwHy4NtO8u9yPMaYhkj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,6 +84,9 @@
       <updated>1635853131544</updated>
       <workItem from="1635853149112" duration="6419000" />
       <workItem from="1636811095248" duration="6301000" />
+      <workItem from="1637063872443" duration="1312000" />
+      <workItem from="1637224280113" duration="56000" />
+      <workItem from="1637224440447" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="Terminado el volcado y recuperación a XML. Falta mostrar los datos en un DataGrid.">
       <created>1636817356293</created>

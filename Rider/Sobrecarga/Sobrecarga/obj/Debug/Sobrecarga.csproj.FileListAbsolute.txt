@@ -1,0 +1,6 @@
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Sobrecarga\Sobrecarga\bin\Debug\Sobrecarga.exe
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Sobrecarga\Sobrecarga\bin\Debug\Sobrecarga.pdb
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Sobrecarga\Sobrecarga\obj\Debug\Sobrecarga.csprojAssemblyReference.cache
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Sobrecarga\Sobrecarga\obj\Debug\Sobrecarga.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Sobrecarga\Sobrecarga\obj\Debug\Sobrecarga.exe
+C:\Users\danie\Documents\Daniel\Universidad\4 Año 1er Cuatrimestre\DIA\Rider\Sobrecarga\Sobrecarga\obj\Debug\Sobrecarga.pdb
